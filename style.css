@@ -1,0 +1,496 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+  color: #212529;
+  font-family: poppins, roboto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding:0 ;
+  
+  
+}
+
+
+section {
+  margin-top: 30px;
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f8ff;
+  background-image: url(https://rockcontent.com/br/wp-content/uploads/sites/2/2021/04/rock-bg-hero-mobile-1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #f5f8ff;
+  
+    
+    
+}
+
+#navbar h3 {
+  padding-left: 10%;
+}
+
+#navbar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
+  
+  
+}
+
+.nav-link {
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.nav-link:hover{
+  color: #212529;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.botao-laranja {
+  background-color: #516bae;
+  border: solid #516bae;
+  border-radius: 3em;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+#botao-roxo {
+  background-color: white;
+  border: solid #516bae 1.5px;
+  border-radius: 3em;
+  width: 150px;
+  height: 30px;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+.botao-rosa {
+  background-color: rgb(207, 148,161,1);
+  border: solid rgb(207, 148,161,1);
+  border-radius: 3em;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  box-shadow: 5px 5px 5px lightgrey;
+  margin-top: -10px;
+}
+
+.link-botao-rosa {
+  text-decoration: none;
+  color:#212529
+}
+.botao-form {
+  
+  align-items: center;
+   
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+  
+    
+}
+
+.titulo-banner {
+  font-size: 40px;
+}
+
+span {
+  background-color: rgb(207, 148,161,0.5) ;
+  
+}
+
+#welcome-section img {
+  width: 50%;
+}
+
+#welcome-section div {
+  width: 50%;
+}
+
+#sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
+  
+}
+
+#img-sobre {
+  width: 40%;
+    
+}
+
+#text-sobre {
+  width: 50%;
+}
+
+#lista-entrega {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
+  
+  
+}
+
+#lista-entrega img {
+  width: 50%;
+}
+
+#listagem {
+  width: 40%;
+    
+}
+
+.item-lista {
+ list-style:disc;
+ 
+}
+
+#background {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f8ff;
+  background-image: url(https://rockcontent.com/br/wp-content/uploads/sites/2/2021/04/rock-bg-hero-mobile-1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: stretch;
+     
+}
+
+#main-project {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#main-project img {
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+
+}
+
+
+#others-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  column-gap: 20px;
+  min-width: 60%;
+}
+
+
+
+.img-projetos {
+  border-radius: 10px;
+  height:200px; 
+  width:200px;
+  
+}
+
+.project-tile {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 40%;
+}
+
+.titulo-centralizado {
+  display: flex;
+  justify-content: center;
+    
+}
+
+#contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+
+}
+
+#contato-img {
+  width: 40%;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.bloco-input {
+  width: 100%;
+  border-radius: 1.5em;
+  border:1px solid #212529;
+}
+
+.botao-form {
+  display: block;
+  margin: auto;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color:#516bae;
+  width: 100%;
+  margin-top: 30px;
+  color: #ffffff;
+ 
+}
+
+
+/*media queries */
+
+@media (max-width:1024px) {
+
+  
+  
+  .titulo-banner {
+    font-size: 40px;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+  }
+
+  .project-tile {
+    margin-top: 3rem;
+  }
+
+}
+
+@media (max-width:850px) {
+  
+  
+  
+
+#navbar {
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left:0;
+  right: 0;
+  width: 100%;
+   
+    
+}
+
+.botao-navbar{
+  display: none;
+}
+
+#navbar > ul {
+  padding: 0;
+}
+
+#navbar h3 {
+  padding: 0;
+}
+  
+  #welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+  }
+
+  #welcome-section img {
+    width: 80%;
+  }
+  
+  #welcome-section div {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #projects {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  #sobre {
+    flex-direction: column-reverse;
+  }
+
+  #img-sobre {
+    width: 80%;
+      
+  }
+  
+  #text-sobre {
+    width: 100%;
+    text-align: center;
+  }
+
+  
+  
+  #lista-entrega img {
+    display: none;
+  }
+  
+  #listagem {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+      
+  }
+
+  .titulo-projetos {
+    width: 80%;
+    margin-top: 3rem;
+    text-align: center;
+
+  }
+
+  #main-project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  #main-project img {
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+  
+  }
+  
+  
+  #others-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 20px;
+    width: 100%;
+  }
+  
+    
+  .project-tile {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 40%;
+  }
+
+  #contato-img {
+    display: none;
+  }
+
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 650px) {
+
+  .titulo-banner {
+    font-size: 30px;
+  }
+  
+  
+  .img-projetos {
+    
+    height:300px; 
+    width:300px;
+    
+  }
+
+  #botao-roxo {
+    margin-top: .5rem;
+  }
+}
+
+@media (max-width:400px) {
+
+  #welcome-section {
+    margin-top: 7rem;
+    
+    }
+}
